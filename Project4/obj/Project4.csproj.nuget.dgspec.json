@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Project4.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Project4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Project4.csproj",
+        "projectName": "Project4",
+        "projectPath": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Project4.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.TagHelpers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "SixLabors.Fonts": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "SixLabors.ImageSharp.Drawing": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

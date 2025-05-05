@@ -1,0 +1,195 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	DateTime currentDate = DateTime.Now.Date;
+	Homes allHomes = null;
+	if (ViewBag.Homes != null)
+	{
+		allHomes = ViewBag.Homes;
+	}
+
+}
+
+<div class="row">
+	<div class="col-md-3 col-lg-2 sidebar bg-light p-3" id="sidebar">
+		<form asp-controller="Account" asp-action="Login" method="POST">
+			<input type="submit" id="btnAgentLogin" name="btnAgentLogin" value="Agent Dashboard" class="btn btn-primary w-100 mb-4" />
+		</form>
+		<h5 class="mb-3">Filter Options</h5>
+		<span class="text-warning">@ViewBag.FilterOptionsError</span>
+		<form asp-controller="Dashboard" asp-action="ApplyFilter" method="POST">
+			<div class="filter-group mb-3">
+				<label class="form-label">Street</label>
+				<input type="text" name="txtFilterStreet" class="form-control mb-3" value="@TempData["txtFilterStreet"]">
+
+				<label class="form-label">City</label>
+				<input type="text" name="txtFilterCity" class="form-control mb-3" value="@TempData["txtFilterCity"]">
+
+				<label class="form-label">State</label>
+				<br/>
+				<select name="ddlFilterState" class="from-select mb-3">
+                    <option value="Select a State">Select a State</option>
+                    @foreach (States state in Enum.GetValues(typeof(States)))
+                    {
+                        if (TempData["ddlFilterState"] != null && TempData["ddlFilterState"].ToString() == state.ToString())
+                        {
+                            <option value="@state" selected="selected">@state</option>
+                        }
+                        else
+                        {
+                            <option value="@state">@state</option>
+                        }
+                    }
+				</select>
+				<br />
+
+				<label class="form-label">Zip Code</label>
+				<input type="text" name="txtFilterZipCode" class="form-control mb-3" value="@TempData["txtFilterZipCode"]">
+
+				<label for="priceRange" class="form-label">Price Range</label>
+				<div class="input-group mb-3" id="priceRange">
+					<span class="input-group-text">$</span>
+					<input type="text" class="form-control" placeholder="Min" id="txtFilterMinPrice" name="txtFilterMinPrice" value="@TempData["txtFilterMinPrice"]"/>
+					<span class="input-group-text">-</span>
+					<input type="text" class="form-control" placeholder="Max" id="txtFilterMaxPrice" name="txtFilterMaxPrice" value="@TempData["txtFilterMaxPrice"]"/>
+				</div>
+
+				<label for="houseSize" class="form-label">House Size</label>
+				<div class="input-group mb-3" id="houseSize">
+					<span class="input-group-text">sft.</span>
+					<input type="text" class="form-control" placeholder="Min" name="txtFilterMinHouseSize" value="@TempData["txtFilterMinHouseSize"]" />
+					<span class="input-group-text">-</span>
+					<input type="text" class="form-control" placeholder="Max" name="txtFilterMaxHouseSize" value="@TempData["txtFilterMaxHouseSize"]" />
+				</div>
+
+				<label for="minBedroom" class="form-label">Min Bedrooms</label>
+				<input type="text" class="form-control" id="txtMinBedroom" name="txtMinBedroom" value="@TempData["txtMinBedroom"]"/>
+
+				<label for="minBathroom" class="form-label">Min Bathroom</label>
+				<input type="text" class="form-control" id="txtMinBathroom" name="txtMinBathroom" value="@TempData["txtMinBathroom"]"/>
+
+				<label class="form-label">Property Type:</label>
+				<br/>
+                @foreach (PropertyType propertyType in Enum.GetValues(typeof(PropertyType)))
+                {
+                    if (TempData["radFilterPropertyType"] != null && TempData["radFilterPropertyType"].ToString() == propertyType.ToString())
+                    {
+                        <input type="radio" id="@propertyType" name="radFilterPropertyType" value="@propertyType" checked/>
+                    }
+                    else
+                    {
+                        <input type="radio" id="@propertyType" name="radFilterPropertyType" value="@propertyType"/>
+                    }
+                    <label for="@propertyType">@propertyType</label><br>
+                }
+				<br />
+
+				<label class="form-label">Amenities:</label>
+				<br/>
+                @foreach (AmenityType amenity in Enum.GetValues(typeof(AmenityType)))
+                {
+                    if (TempData[$"chkFilterAmenities_{amenity}"] != null && TempData[$"chkFilterAmenities_{amenity}"].ToString() == amenity.ToString())
+                    {
+                        <input type="checkbox" id="@amenity" name="chkFilterAmenities_@amenity" value="@amenity" checked/>
+                    }
+                    else
+                    {
+                        <input type="checkbox" id="@amenity" name="chkFilterAmenities_@amenity" value="@amenity"/>
+                    }
+                    <label for="@amenity">@amenity</label><br>
+                }
+				<br />
+
+				<label class="form-label">Sale Status:</label>
+				<br/>
+				<select name="ddlFilterSaleStatus" class="from-select mb-3">
+                    <option value="Select a Sale Status">Select a Sale Status</option>
+                    @foreach (SaleStatus status in Enum.GetValues(typeof(SaleStatus)))
+                    {
+                        if (TempData["ddlFilterSaleStatus"] != null && TempData["ddlFilterSaleStatus"].ToString() == status.ToString())
+                        {
+                            <option value="@status" selected="selected">@status</option>
+                        }
+                        else
+                        {
+                            <option value="@status">@status</option>
+                        }
+                    }
+				</select>
+				</br>
+
+				<button type="submit" class="btn-primary">Filter Homes</button>
+				@if(TempData["Errors"] != null)
+				{
+					foreach (string error in (List<string>)TempData["Errors"])
+					{
+						<p class="alert-danger">@error</p>
+					}
+				}
+			</div>
+		</form>
+	</div>
+
+
+	<div class="col-md-9 col-lg-10 p-4" id="listingContent">
+		<div class="container">
+			<div class="row">
+				@if (allHomes.List.Count == 0)
+				{
+					<h2>No Home Listings Are For Sale with search params!</h2>
+				}
+				else
+				{
+					@foreach (Home currentHome in allHomes.List)
+					{
+						<div class="col-md-4 mb-4">
+							<div class="card">
+								@if((currentHome.Images.List.Count == 0 || currentHome.Images == null))
+								{
+								// This is because no write permission to server :(((
+									<img src="https://img.freepik.com/free-vector/house-with-red-roof_1308-104540.jpg" />
+								}
+								else
+								{
+									<img src="@currentHome.Images.List[0].GetAbsoluteURL()" class="card-img-top" alt="Cant Load Image. Thanks Tom. @currentHome.Images.List[0].GetAbsoluteURL()" />
+								}
+								<div class="card-body">
+									<h5 class="card-title">@currentHome.Address.ToString()</h5>
+									<p class="card-text">
+										<strong>Type: @currentHome.PropertyType</strong> <br />
+										<strong>SqFt: @currentHome.HomeSize</strong> <br />
+										<strong>Bedrooms: @currentHome.Rooms.GetBedrooms()</strong> <br />
+										<strong>Full-Bathrooms: @currentHome.Rooms.GetFullBaths()</strong> <br />
+										<strong>Half-Bathrooms: @currentHome.Rooms.GetHalfBaths()</strong> <br />
+										<strong>Asking Price: @currentHome.Cost</strong> <br />
+										<strong>Days Listed: @((currentDate - currentHome.DateListed).Days)</strong> <br />
+									</p>
+									<div class="d-flex flex-wrap gap-2">
+										<form method="POST" asp-controller="Dashboard" asp-action="ViewDetail" asp-route-homeID="@currentHome.HomeID">
+											<button type="submit" class="btn btn-primary btn-sm" name="btnViewDetials" id="btnViewDetails">View Details</button>
+										</form>
+										@if((currentHome.SaleStatus == SaleStatus.Sold || currentHome.SaleStatus == SaleStatus.OffMarket))
+										{
+											
+										}
+										else
+										{
+											<form method="POST" asp-controller="Dashboard" asp-action="PassShowing" asp-route-homeID="@currentHome.HomeID">
+												<button type="submit" class="btn btn-primary btn-sm" name="btnRequestShowing" id="btnRequestShowing">Request Showing</button>
+											</form>
+											<form method="POST" asp-controller="Offer" asp-action="MakeOffer" asp-route-homeID="@currentHome.HomeID">
+												<button type="submit" class="btn btn-primary btn-sm" name="btnMakeOffer" id="btnMakeOffer">Make Offer</button>
+											</form>
+										}
+									</div>
+								</div>
+							</div>
+						</div>
+					}
+				}
+			</div>
+		</div>
+	</div>
+</div>

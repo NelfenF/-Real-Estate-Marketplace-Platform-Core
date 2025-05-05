@@ -1,0 +1,106 @@
+[
+  {
+    "ContainingType": "HomeListingAPI.Controllers.CreateHomeController",
+    "Method": "Post",
+    "RelativePath": "CreateHome/CreateHomeListing",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "home",
+        "Type": "HomeListingAPI.Home",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HomeListingAPI.Controllers.DeleteHomeController",
+    "Method": "Delete",
+    "RelativePath": "DeleteHomeListing/{homeID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "homeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HomeListingAPI.Controllers.ReadHomeController",
+    "Method": "Get",
+    "RelativePath": "ReadHome/ReadHomeListings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "HomeListingAPI.Homes",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HomeListingAPI.Controllers.ReadHomeController",
+    "Method": "Get",
+    "RelativePath": "ReadHome/ReadSingleHomeListing/{homeID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "homeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HomeListingAPI.Home",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HomeListingAPI.Controllers.UpdateHomeController",
+    "Method": "Put",
+    "RelativePath": "UpdateHome/UpdateHomeListing",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedHome",
+        "Type": "HomeListingAPI.Home",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

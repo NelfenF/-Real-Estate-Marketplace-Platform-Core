@@ -1,0 +1,152 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Submit Offer";
+}
+
+<div class="container my-4">
+    <form asp-controller="Offer" asp-action="FinalizeOffer" method="POST" class="card shadow mt-5 p-3">
+        <h4 class="card-title">Make Offer</h4>
+        <p class="text-danger">@ViewBag.OfferError</p>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="txtOfferFirstName" class="form-label">First Name</label>
+                <input type="text" id="txtOfferFirstName" name="FirstName" class="form-control" value="@ViewBag.FirstName"/>
+                <span class="text-danger">@ViewBag.FnameError</span>
+            </div>
+            <div class="col-md-6">
+                <label for="txtOfferLastName" class="form-label">Last Name</label>
+                <input type="text" id="txtOfferLastName" name="LastName" class="form-control" value="@ViewBag.LastName" />
+                <span class="text-danger">@ViewBag.FnameError</span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="txtOfferEmail" class="form-label">Email</label>
+                <input type="email" id="txtOfferEmail" name="Email" class="form-control" value="@ViewBag.Email" />
+                <span class="text-danger">@ViewBag.EmailError</span>
+            </div>
+            <div class="col-md-6">
+                <label for="OfferPhone" class="form-label">Phone Number</label>
+                <input type="tel" id="OfferPhone" name="Phone" class="form-control" value="@ViewBag.Phone" />
+                <span class="text-danger">@ViewBag.PhoneError</span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="OfferAddress" class="form-label">Address</label>
+                <input type="text" id="OfferAddress" name="clientAddress" class="form-control" value="@ViewBag.ClientAddress" />
+                <span class="text-danger">@ViewBag.StreetError</span>
+            </div>
+            <div class="col-md-6">
+                <label for="OfferCity" class="form-label">City</label>
+                <input type="text" id="OfferCity" name="clientCity" class="form-control" value="@ViewBag.ClientCity" />
+                <span class="text-danger">@ViewBag.CityError</span>
+            </div>
+
+            <div class="col-md-6">
+                <label for="OfferState" class="form-label">State</label>
+                <select id="OfferState" name="clientState" class="form-control">
+                    @foreach (States state in Enum.GetValues(typeof(States)))
+                    {
+                        <option value="@state">@state</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="OfferZip" class="form-label">Zip Code</label>
+                <input type="text" id="OfferZip" name="clientZip" class="form-control" value="@ViewBag.ClientZip" />
+                <span class="text-danger">@ViewBag.ZipError</span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="OfferAmount" class="form-label">Offer Amount</label>
+                <input type="text" id="OfferAmount" name="OfferAmount" class="form-control" value="@ViewBag.Offer" />
+                <span class="text-danger">@ViewBag.AmountError</span>
+            </div>
+            <div class="col-md-6">
+                <label for="SaleType" class="form-label">Offer Type</label>
+                <select id="SaleType" name="SaleType" class="form-control">
+                    @foreach (TypeOfSale saleType in Enum.GetValues(typeof(TypeOfSale)))
+                    {
+                        <option value="@saleType">@saleType</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label">Sell Current Home</label>
+                <div class="form-check">
+                    <input type="radio" id="SellHomeYes" name="SellHomePrior" value="true" class="form-check-input" />
+                    <label for="SellHomeYes" class="form-check-label">Yes</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="SellHomeNo" name="SellHomePrior" value="false" class="form-check-input" />
+                    <label for="SellHomeNo" class="form-check-label">No</label>
+                </div>
+                <span class="text-danger">@ViewBag.HomeError</span>
+            </div>
+
+            <div class="col-md-6">
+                <label for="OfferMoveInDate" class="form-label">Move-In Date</label>
+                <input type="date" id="OfferMoveInDate" name="MoveInDate" class="form-control" value="@ViewBag.MoveInDate" />
+                <span class="text-danger">@ViewBag.DateError</span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-12">
+                <label for="txtOfferContingency" class="form-label">Offer Contingency</label>
+                <input type="text" id="txtOfferContingency" name="newContingency" class="form-control mb-2" />
+                <span class="text-danger">@ViewBag.ContingencyError</span>
+                <button type="submit" formaction="/Offer/AddContingency" formmethod="POST" class="btn btn-primary mb-3">Add Contingency</button>
+
+                <table class="table mt-3">
+                    <thead>
+                        <tr>
+                            <th>Contingency</th>
+                            <th>Remove Contingency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (ViewBag.OfferContingencies == null || ViewBag.OfferContingencies.Count == 0)
+                        {
+                            <tr>
+                                <td colspan="2">No Contingencies!</td>
+                            </tr>
+                        }
+                        else
+                        {
+                            foreach (string offerContingency in ViewBag.OfferContingencies)
+                            {
+                                <tr>
+                                    <td>@offerContingency</td>
+                                    <td>
+                                        
+                                            <input type="hidden" name="removedContingency" value="@offerContingency" />
+                                            <button type="submit" formaction="/Offer/RemoveContingency" formmethod="POST" class="btn btn-danger">Remove Contingency</button>
+
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-end mt-4">
+            <button type="submit" class="btn btn-success me-2 w-100">Submit Offer</button>
+            <a asp-controller="MortgageCalculator" asp-action="MortgageCalculator" class="btn btn-primary me-2 w-100">Calculate Mortgage</a>
+            <a asp-controller="Dashboard" asp-action="Dashboard" class="btn btn-secondary w-100">Cancel Offer</a>
+         
+        </div>
+    </form>
+</div>

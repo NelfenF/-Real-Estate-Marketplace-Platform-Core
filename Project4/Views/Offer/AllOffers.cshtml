@@ -1,0 +1,85 @@
+﻿@using Newtonsoft.Json
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AgentLayout.cshtml";
+	Offers allOffers = ReadOffers.ReadAllOffers();
+	Offers agentOffers = null;
+	Agent currentAgent = null;
+	string apiUrl = "https://cis-iis2.temple.edu/Fall2024/CIS3342_tui78495/WebAPI/ReadHome/ReadHomeListings";
+	HttpClient client = new HttpClient();
+	HttpResponseMessage response = client.GetAsync(apiUrl).Result;
+	string jsonString = response.Content.ReadAsStringAsync().Result;
+	Homes allHomes = JsonConvert.DeserializeObject<Homes>(jsonString);
+	if (ViewBag.Agent != null)
+	{
+		currentAgent = ViewBag.Agent;
+		agentOffers = new Offers();
+		foreach (Home currentHome in allHomes.List)
+		{
+			foreach (Offer currentOffer in allOffers.List)
+			{
+				if (currentHome.AgentID == currentAgent.AgentID)
+				{
+					if (currentHome.HomeID == currentOffer.Home.HomeID)
+					{
+						if (currentOffer.Status == OfferStatus.Pending)
+						{
+							agentOffers.Add(currentOffer);
+						}
+
+					}
+				}
+			}
+		}
+	}
+}
+<div class="container">
+    <div class="row p-4 shadow mt-5 mb-5">
+        <div class="card-header bg-primary text-white d-flex justify-content-between">
+            <h2 class="mb-0">Your pending offers</h2>
+            <a asp-controller="AgentDashboard" asp-action="AgentDashboard" class="btn btn-secondary">Return To Dashboard</a>
+        </div>
+        @foreach (Offer currentOffer in agentOffers.List)
+        {
+            <div class="col-md-4 mt-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@currentOffer.Home.Address.ToString()</h5>
+                        <p class="card-text">
+                            <strong>Client Name: @currentOffer.Client.FirstName @currentOffer.Client.LastName</strong> <br />
+                            <strong>Client Email: @currentOffer.Client.Email</strong> <br />
+                            <strong>Asking Price For Home: @currentOffer.Home.Cost</strong> <br />
+                            <strong>Offer Amount: @currentOffer.Amount</strong> <br />
+                            <strong>Move In Date: @currentOffer.MoveInDate.Date</strong><br />
+                            <strong>Offer Contingencies:</strong> <br />
+                            <ul>
+                                @if (ReadContingencies.GetContingenciesByOfferID(currentOffer.OfferID).List.Count == 0)
+                                {
+                                    <p>No Contingencies With Offer</p>
+                                }
+                                else
+                                {
+                                    @foreach (Contingency currentContingency in ReadContingencies.GetContingenciesByOfferID(currentOffer.OfferID).List)
+                                    {
+                                        <li>@currentContingency.OfferContingency</li>
+                                    }
+                                }
+     
+                            </ul>
+                        </p>
+                        <div class="d-flex gap-2">
+                            <form method="POST" asp-controller="Offer" asp-action="AcceptOffer" asp-route-offerID="@currentOffer.OfferID">
+                                <button type="submit" class="btn btn-primary btn-sm me-2" name="AcceptOffer" id="btnViewDetails">Accept Offer</button>
+                            </form>
+                            <form method="POST" asp-controller="Offer" asp-action="DenyOffer" asp-route-offerID="@currentOffer.OfferID">
+                                <button type="submit" class="btn btn-primary btn-sm me-2" name="DenyOffer" id="btnRequestShowing">Deny Offer</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

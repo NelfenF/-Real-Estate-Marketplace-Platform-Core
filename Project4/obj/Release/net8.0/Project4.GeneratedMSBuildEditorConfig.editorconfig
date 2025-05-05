@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Project4
+build_property.RootNamespace = Project4
+build_property.ProjectDir = C:\Users\natha\OneDrive\Documents\GitHub\CIS3342-Project4\Project4\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\natha\OneDrive\Documents\GitHub\CIS3342-Project4\Project4
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Account/CreateAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Account/CreateCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGVDb21wYW55LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Account/ForgotPasswordSecurity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZFNlY3VyaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Account/VerifyAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZnlBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/AgentDashboard/AgentDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWdlbnREYXNoYm9hcmRcQWdlbnREYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Dashboard/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Dashboard/ViewDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFZpZXdEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/MortgageCalculator/MortgageCalculator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9ydGdhZ2VDYWxjdWxhdG9yXE1vcnRnYWdlQ2FsY3VsYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Offer/AllOffers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmZXJcQWxsT2ZmZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Offer/MakeOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmZXJcTWFrZU9mZmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/RealEstateHome/AllEditHomes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZUhvbWVcQWxsRWRpdEhvbWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/RealEstateHome/BackupEditHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZUhvbWVcQmFja3VwRWRpdEhvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/RealEstateHome/CreateHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZUhvbWVcQ3JlYXRlSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Shared/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Shared/ErrorPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Shared/_AgentLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZ2VudExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Showing/ScheduleShowing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd2luZ1xTY2hlZHVsZVNob3dpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Showing/ViewShowings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd2luZ1xWaWV3U2hvd2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/WriteTest/WriteTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3JpdGVUZXN0XFdyaXRlVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/natha/OneDrive/Documents/GitHub/CIS3342-Project4/Project4/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ppul4gyj6f

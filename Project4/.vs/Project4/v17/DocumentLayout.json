@@ -1,0 +1,821 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0EF01A-7A34-4DDE-893F-795FBDBBA54E}|..\\EmailAPI\\EmailAPI.csproj|c:\\users\\natha\\desktop\\proj4\\emailapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0EF01A-7A34-4DDE-893F-795FBDBBA54E}|..\\EmailAPI\\EmailAPI.csproj|c:\\users\\natha\\desktop\\proj4\\emailapi\\emailinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0EF01A-7A34-4DDE-893F-795FBDBBA54E}|..\\EmailAPI\\EmailAPI.csproj|c:\\users\\natha\\desktop\\proj4\\emailapi\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A94CAA8-14D9-4EF6-9B1B-5865F008FF22}|..\\HomeListingAPI\\HomeListingAPI.csproj|c:\\users\\natha\\desktop\\proj4\\homelistingapi\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\models\\emailinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:models\\emailinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\models\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:models\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\controllers\\realestatehomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:controllers\\realestatehomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\controllers\\sharedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:controllers\\sharedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\models\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:models\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\models\\temperaturecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:models\\temperaturecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\realestatehome\\backupedithome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\realestatehome\\backupedithome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\realestatehome\\alledithomes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\realestatehome\\alledithomes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\realestatehome\\createhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\realestatehome\\createhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\controllers\\mortgagecalculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:controllers\\mortgagecalculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\dashboard\\viewdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\dashboard\\viewdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\dashboard\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\offer\\makeoffer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\offer\\makeoffer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/127.0.0.1_5555/FA24_3342_tui78495/tui78495/SqlTable/dbo.P4_HomeImage.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\offer\\alloffers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\offer\\alloffers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\agentdashboard\\agentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\agentdashboard\\agentdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\account\\forgotpasswordsecurity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\account\\forgotpasswordsecurity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\account\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\account\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\account\\createcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\account\\createcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\controllers\\showingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:controllers\\showingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\controllers\\offercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:controllers\\offercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\controllers\\agentdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:controllers\\agentdashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\models\\viewmodels\\createaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:models\\viewmodels\\createaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|c:\\users\\natha\\desktop\\proj4\\project4\\models\\homes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C4067A4-050E-42D8-B2F7-B1F0E40E7E73}|Project4.csproj|solutionrelative:models\\homes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Homes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\IListOfObjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Amenity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Controllers\\UpdateHomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteRoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteOffers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteTemperatureControl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteUtility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\ReadHome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Controllers\\ReadHomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\DBConnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\EmailAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\EmailAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\EmailAPI\\Program.cs",
+              "RelativeToolTip": "..\\EmailAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:54:04.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailInfo.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\EmailAPI\\EmailInfo.cs",
+              "RelativeDocumentMoniker": "..\\EmailAPI\\EmailInfo.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\EmailAPI\\EmailInfo.cs",
+              "RelativeToolTip": "..\\EmailAPI\\EmailInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:54:02.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\EmailAPI\\Email.cs",
+              "RelativeDocumentMoniker": "..\\EmailAPI\\Email.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\EmailAPI\\Email.cs",
+              "RelativeToolTip": "..\\EmailAPI\\Email.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:53:50.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBConnect.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\HomeListingAPI\\DBConnect.cs",
+              "RelativeDocumentMoniker": "..\\HomeListingAPI\\DBConnect.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\HomeListingAPI\\DBConnect.cs",
+              "RelativeToolTip": "..\\HomeListingAPI\\DBConnect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:53:13.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailInfo.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\EmailInfo.cs",
+              "RelativeDocumentMoniker": "Models\\EmailInfo.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\EmailInfo.cs",
+              "RelativeToolTip": "Models\\EmailInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:52:59.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DBConnect.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\DBConnect.cs",
+              "RelativeDocumentMoniker": "Models\\DBConnect.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\DBConnect.cs",
+              "RelativeToolTip": "Models\\DBConnect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:52:15.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Homes.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Homes.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Homes.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Homes.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Homes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:22:44.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "Models\\Address.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\Address.cs",
+              "RelativeToolTip": "Models\\Address.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:16:33.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IListOfObjects.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\IListOfObjects.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\IListOfObjects.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\IListOfObjects.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\IListOfObjects.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T23:16:04.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RealEstateHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\RealEstateHomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RealEstateHomeController.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\RealEstateHomeController.cs",
+              "RelativeToolTip": "Controllers\\RealEstateHomeController.cs",
+              "ViewState": "AgIAAFQDAAAAAAAAAAAUwGEDAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:31:16.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Home.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Home.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Home.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Home.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAwBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:22:46.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Image.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Image.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Image.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Image.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:24:07.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Room.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Room.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Room.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:24:13.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AllEditHomes.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\RealEstateHome\\AllEditHomes.cshtml",
+              "RelativeDocumentMoniker": "Views\\RealEstateHome\\AllEditHomes.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\RealEstateHome\\AllEditHomes.cshtml",
+              "RelativeToolTip": "Views\\RealEstateHome\\AllEditHomes.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T20:48:54.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SharedController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\SharedController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SharedController.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\SharedController.cs",
+              "RelativeToolTip": "Controllers\\SharedController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T22:55:18.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\Utility.cs",
+              "RelativeDocumentMoniker": "Models\\Utility.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\Utility.cs",
+              "RelativeToolTip": "Models\\Utility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:27:06.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Amenity.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Amenity.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Amenity.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Amenity.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Amenity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:26:01.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TemperatureControl.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\TemperatureControl.cs",
+              "RelativeDocumentMoniker": "Models\\TemperatureControl.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\TemperatureControl.cs",
+              "RelativeToolTip": "Models\\TemperatureControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:26:29.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BackupEditHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\RealEstateHome\\BackupEditHome.cshtml",
+              "RelativeDocumentMoniker": "Views\\RealEstateHome\\BackupEditHome.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\RealEstateHome\\BackupEditHome.cshtml",
+              "RelativeToolTip": "Views\\RealEstateHome\\BackupEditHome.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAKQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T17:30:53.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MakeOffer.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Offer\\MakeOffer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Offer\\MakeOffer.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Offer\\MakeOffer.cshtml",
+              "RelativeToolTip": "Views\\Offer\\MakeOffer.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAADQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T22:58:12.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MortgageCalculatorController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\MortgageCalculatorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MortgageCalculatorController.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\MortgageCalculatorController.cs",
+              "RelativeToolTip": "Controllers\\MortgageCalculatorController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAhwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:44:15.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ViewDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Dashboard\\ViewDetail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\ViewDetail.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Dashboard\\ViewDetail.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\ViewDetail.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T21:18:18.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Dashboard\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Dashboard\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Dashboard.cshtml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAJsAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T21:16:48.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "Models\\Image.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\Image.cs",
+              "RelativeToolTip": "Models\\Image.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwEoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:36:51.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\RealEstateHome\\CreateHome.cshtml",
+              "RelativeDocumentMoniker": "Views\\RealEstateHome\\CreateHome.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\RealEstateHome\\CreateHome.cshtml",
+              "RelativeToolTip": "Views\\RealEstateHome\\CreateHome.cshtml",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAuwAUBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T19:47:27.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "dbo.P4_HomeImage.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/127.0.0.1_5555/FA24_3342_tui78495/tui78495/SqlTable/dbo.P4_HomeImage.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/127.0.0.1_5555/FA24_3342_tui78495/tui78495/SqlTable/dbo.P4_HomeImage.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-06T23:02:08.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AllOffers.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Offer\\AllOffers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Offer\\AllOffers.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Offer\\AllOffers.cshtml",
+              "RelativeToolTip": "Views\\Offer\\AllOffers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T22:58:08.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AgentDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\AgentDashboard\\AgentDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\AgentDashboard\\AgentDashboard.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\AgentDashboard\\AgentDashboard.cshtml",
+              "RelativeToolTip": "Views\\AgentDashboard\\AgentDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T21:06:02.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T22:57:47.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ForgotPasswordSecurity.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Account\\ForgotPasswordSecurity.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ForgotPasswordSecurity.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Account\\ForgotPasswordSecurity.cshtml",
+              "RelativeToolTip": "Views\\Account\\ForgotPasswordSecurity.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T22:57:46.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T22:57:44.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateAccount.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Account\\CreateAccount.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\CreateAccount.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Account\\CreateAccount.cshtml",
+              "RelativeToolTip": "Views\\Account\\CreateAccount.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAwwGIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T22:55:34.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateCompany.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Account\\CreateCompany.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\CreateCompany.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Account\\CreateCompany.cshtml",
+              "RelativeToolTip": "Views\\Account\\CreateCompany.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAhwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T22:55:49.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ShowingController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\ShowingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShowingController.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\ShowingController.cs",
+              "RelativeToolTip": "Controllers\\ShowingController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAawHAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T22:55:21.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T22:54:51.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAawEkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T22:54:25.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OfferController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\OfferController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OfferController.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\OfferController.cs",
+              "RelativeToolTip": "Controllers\\OfferController.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAADwv8sAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:26:15.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AgentDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\AgentDashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgentDashboardController.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\AgentDashboardController.cs",
+              "RelativeToolTip": "Controllers\\AgentDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T22:54:18.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T21:13:05.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvx4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:29:15.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateAccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\ViewModels\\CreateAccountViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\CreateAccountViewModel.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\ViewModels\\CreateAccountViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\CreateAccountViewModel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T21:07:33.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-06T21:14:03.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Controllers\\UpdateHomeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Controllers\\UpdateHomeController.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Controllers\\UpdateHomeController.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Controllers\\UpdateHomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:39:17.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "WriteRoom.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteRoom.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteRoom.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteRoom.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteRoom.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:04:20.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WriteOffers.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteOffers.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteOffers.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteOffers.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteOffers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:26:04.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "WriteTemperatureControl.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteTemperatureControl.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteTemperatureControl.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteTemperatureControl.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteTemperatureControl.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:07:52.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "WriteUtility.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteUtility.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteUtility.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteUtility.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\WriteUtility.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwv0cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:08:06.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Homes.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\Homes.cs",
+              "RelativeDocumentMoniker": "Models\\Homes.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\proj4\\Project4\\Models\\Homes.cs",
+              "RelativeToolTip": "Models\\Homes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:45:28.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ReadHome.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\ReadHome.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\ReadHome.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\ReadHome.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\ReadHome.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:21:36.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ReadHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Controllers\\ReadHomeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Controllers\\ReadHomeController.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Controllers\\ReadHomeController.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\Controllers\\ReadHomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:18:34.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DBConnect.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\DBConnect.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\DBConnect.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\DBConnect.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Documents\\GitHub\\CIS3342-Project4\\HomeListingAPI\\DBConnect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:17:23.769Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
